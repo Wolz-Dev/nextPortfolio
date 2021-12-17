@@ -10,7 +10,7 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
-                    <title>My Portfolio</title>
+                    <title>Portfolio Celiz Walter</title>
                     <meta name="description" content="Walter Celiz Portfolio" />
                 </Head>
                 <body>
