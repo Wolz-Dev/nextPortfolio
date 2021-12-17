@@ -7,7 +7,7 @@ console.log(skills, educations, projects);
 const Index = () => (
     <Layout>
         {/* Header card */}
-        <header className="row position-relative mt-5">
+        <header className="row">
             <div className="col-md-12">
                 <div className="card card-body bg-secondary text-light">
                     <div className="row">
