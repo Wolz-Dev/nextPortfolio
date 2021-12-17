@@ -1,4 +1,7 @@
 import Layout from "../components/Layout";
+import { skills, educations } from "../profile"
+
+console.log(skills, educations);
 
 const Index = () => (
     <Layout>
@@ -12,9 +15,9 @@ const Index = () => (
                         </div>
                         <div className="col-md-8">
                             <h1>Walter Celiz</h1>
-                            <h3>Junior Developer</h3>
-                            <p>Invidunt rebum et stet sit et lorem takimata, consetetur ipsum erat et vero et dolor clita et. Sadipscing accusam est justo ipsum ipsum magna. Accusam no sed sit sed stet.</p>
-                            <a href="/hireme">Hire Me</a>
+                            <h3>Junior Front-End Developer</h3>
+                            <p>Self-taught Web Developer looking for my first experience in the world of technology.</p>
+                            <a href="/contactme">Contact Me</a>
                         </div>
                     </div>
                 </div>
@@ -22,6 +25,53 @@ const Index = () => (
         </header>
 
         {/* Second section */}
+        <div className="row py-3">
+            <div className="col-md-4">
+                <div className="card bg-light">
+                    <div className="card-body">
+                        <h1>Skills</h1>
+
+                        {
+                            skills.map(({ skill, percentage }, i) => (
+                                <div className="py-3" key={i}>
+                                    <h5>{skill}</h5>
+                                    <div className="progress">
+                                        <div
+                                            className="progress-bar"
+                                            role="progressbar"
+                                            style={{ width: `${percentage}%` }}
+                                            aria-valuenow="50"
+                                            aria-valuemin="0"
+                                            aria-valuemax="100"
+                                        >
+
+                                        </div>
+                                    </div>
+                                </div>
+                            ))
+                        }
+
+                    </div>
+                </div>
+            </div>
+            <div className="col-md-8">
+                <div className="card bg-light">
+                    <div className="card-body">
+                        <h1>Education</h1>
+                        <ul>
+                            {
+                                educations.map(({ title, description }, i) => (
+                                    <li key={i}>
+                                        <h3>{title}</h3>
+                                        <p>{description}</p>
+                                    </li>
+                                ))
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </Layout>
 )
