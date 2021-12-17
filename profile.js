@@ -79,3 +79,21 @@ export const educations = [
         description: '2022 - Midudev Curso React'
     },
 ]
+
+
+export const projects = [
+    {
+        name: 'Statick Bank responsive',
+        description: 'Mockup of imaginary Web Bank (HTML, CSS and Boostrap)',
+        image: 'bank.png',
+        preview: 'https://wolz-banksite.netlify.app/',
+        code: 'https://github.com/Wolz-Dev/staticBank'
+    },
+    {
+        name: 'Instagram clone',
+        description: 'Mockup of Instagram web page (HTML, CSS and Boostrap)',
+        image: 'instaclone.png',
+        preview: 'https://webui-insta.netlify.app/',
+        code: 'https://github.com/Wolz-Dev/bootstrap5Instagram'
+    },
+]
