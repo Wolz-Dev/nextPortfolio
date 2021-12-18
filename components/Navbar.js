@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 const Navbar = () => (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container">
             <Link href="/">
                 <a className="navbar-brand">Portfolio</a>
@@ -15,11 +15,6 @@ const Navbar = () => (
                     <li className="nav-item">
                         <Link href="/github">
                             <a className="nav-link active">GitHub</a>
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link href="/update">
-                            <a className="nav-link">Update</a>
                         </Link>
                     </li>
                 </ul>
