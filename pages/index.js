@@ -8,7 +8,7 @@ const Index = () => (
     <Layout>
         {/* Header card */}
         <header className="row">
-            <div className="col-md-12">
+            <div className="col-md-12 mt-5">
                 <div className="card card-body bg-secondary text-light">
                     <div className="row">
                         <div className="col-md-4">
@@ -18,7 +18,9 @@ const Index = () => (
                             <h1>Walter Celiz</h1>
                             <h3>Junior Front-End Developer</h3>
                             <p>Self-taught Web Developer looking for my first experience in the world of technology.</p>
-                            <a href="/contactme">Contact Me</a>
+                            <br />
+                            <h3>Contact me</h3>
+                            <p><i className="far fa-envelope"> wolz.dev@gmail.com</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fab fa-whatsapp"> +54 9 381 631 5733</i></p>
                         </div>
                     </div>
                 </div>
