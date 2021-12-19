@@ -14,7 +14,7 @@ class MyDocument extends Document {
                     <meta name="description" content="Walter Celiz Portfolio" />
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.1.5/nprogress.css" integrity="sha512-j9L5f7y6XeT13BypDgKfVgynVVoS9yLmr/jUGrcfy5IIFIwWT0VK9czh7qoMHbah+Et1kCdpM57BOr9ihIKRMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
                 </Head>
-                <body>
+                <body className="test">
                     <Main />
                     <NextScript />
                     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

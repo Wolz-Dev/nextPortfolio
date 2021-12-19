@@ -7,20 +7,24 @@ console.log(skills, educations, projects);
 const Index = () => (
     <Layout>
         {/* Header card */}
-        <header className="row">
+        <header className="row mt-3">
             <div className="col-md-12 mt-5">
-                <div className="card card-body bg-secondary text-light">
+                <div className="card card-body bg-secondary glass text-light">
                     <div className="row">
                         <div className="col-md-4">
-                            <img src="photoport.jpeg" alt="foto perfil" className="img-fluid" />
+                            <img src="photoport.jpeg" alt="foto perfil" className="img-fluid glass" />
                         </div>
                         <div className="col-md-8">
-                            <h1>Walter Celiz</h1>
-                            <h3>Junior Front-End Developer</h3>
-                            <p>Self-taught Web Developer looking for my first experience in the world of technology.</p>
+                            <h1 className="maker color1 mt-3 fs-2">Walter Celiz</h1>
+                            <h3 className="maker2">Junior Front-End Developer</h3>
+                            <p className="fs-5">Self-taught Web Developer looking for my first experience in the world of technology.</p>
                             <br />
-                            <h3>Contact me</h3>
-                            <p><i className="far fa-envelope"> wolz.dev@gmail.com</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fab fa-whatsapp"> +54 9 381 631 5733</i></p>
+                            <h3 className="maker2">Contact me</h3>
+                            <div className="fs-5 d-flex align-items-center">
+                                <a href="mailto:wolz.dev@gmail.com" className="text-decoration-none text-light d-flex align-items-center"><i className="far fa-envelope fs-3"></i>&nbsp;Email</a>&nbsp;&nbsp;&nbsp;
+                                <a href="https://wa.me/+5493816315733" target="_blank" className="text-decoration-none text-light d-flex align-items-center"><i className="fab fa-whatsapp fs-3"></i>&nbsp;Whatsapp</a>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -28,9 +32,9 @@ const Index = () => (
         </header>
 
         {/* Second section */}
-        <div className="row py-3">
-            <div className="col-md-4">
-                <div className="card bg-light">
+        <div className="row mt-1">
+            <div className="col-md-4 mt-3">
+                <div className="card bg-light glass">
                     <div className="card-body">
                         <h1>Skills</h1>
 
@@ -57,8 +61,8 @@ const Index = () => (
                     </div>
                 </div>
             </div>
-            <div className="col-md-8">
-                <div className="card bg-light">
+            <div className="col-md-8 mt-3">
+                <div className="card bg-light glass">
                     <div className="card-body">
                         <h1>Education</h1>
                         <ul>
@@ -77,9 +81,9 @@ const Index = () => (
         </div>
 
         {/* Portfolio */}
-        <div className="row">
+        <div className="row mt-3">
             <div className="col-md-12">
-                <div className="card card-body bg-dark">
+                <div className="card card-body bg-dark glass">
                     <div className="row">
                         <div className="col-md-12">
                             <h1 className="text-center text-light">Portfolio</h1>
@@ -87,8 +91,8 @@ const Index = () => (
 
                         {
                             projects.map(({ name, description, image, preview, code }, i) => (
-                                <div className="col-md-4 p-2" key={i}>
-                                    <div className="card h-100">
+                                <div className="col-md-4 p-2 " key={i}>
+                                    <div className="card h-100 glass">
                                         <div className="overflow">
                                             <img src={`/${image}`} alt="-" className="card-img-top" />
                                         </div>
