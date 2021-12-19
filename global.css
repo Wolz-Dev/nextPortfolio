@@ -1,3 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Righteous&display=swap");
+
+.maker {
+  font-family: "Press Start 2P", cursive !important;
+}
+.maker2 {
+  font-family: "Righteous", cursive !important;
+}
+
+.fs-6 {
+  font-size: 1.2rem !important;
+}
+
+.mov {
+  top: -0.5%;
+}
+
+body {
+  background-image: url(public/probar.jpg);
+  background-size: cover;
+}
+
 .overflow {
   height: 50%;
   overflow: hidden;
@@ -12,11 +35,32 @@
   transform: scale(1.5);
 }
 
+.color1 {
+  color: yellow !important;
+}
+
+.fa-envelope {
+  color: red;
+}
+.fa-whatsapp {
+  color: green;
+}
+
 #nprogress .bar {
-  background: red !important;
+  background: rgb(226, 2, 226) !important;
 }
 
 #nprogress .spinner-icon {
-  border-top-color: red;
-  border-left-color: green;
+  border-top-color: rgb(226, 2, 226);
+  border-left-color: cyan;
+}
+
+.glass {
+  background: linear-gradient
+    (135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 21px !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
