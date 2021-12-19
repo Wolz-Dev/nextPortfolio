@@ -36,7 +36,11 @@ body {
 }
 
 .color1 {
-  color: yellow !important;
+  color: orange !important;
+}
+
+.mt-6 {
+  margin-top: 5rem;
 }
 
 .fa-envelope {
