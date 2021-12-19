@@ -132,10 +132,14 @@
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 /******/ 		__webpack_require__.h = function() { return "750137432a392a0f"; }
 =======
 /******/ 		__webpack_require__.h = function() { return "7bc2e43e4f95fdf6"; }
 >>>>>>> main
+=======
+/******/ 		__webpack_require__.h = function() { return "7bc2e43e4f95fdf6"; }
+>>>>>>> 160e112 (tocando weass css++)
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
