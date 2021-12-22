@@ -2,8 +2,6 @@ import Layout from "../components/Layout";
 import { skills, educations, projects } from "../profile"
 import Link from "next/link"
 
-console.log(skills, educations, projects);
-
 const Index = () => (
     <Layout>
         {/* Header card */}
@@ -93,8 +91,8 @@ const Index = () => (
                             projects.map(({ name, description, image, preview, code }, i) => (
                                 <div className="col-md-4 p-2 " key={i}>
                                     <div className="card h-100 glass">
-                                        <div className="overflow">
-                                            <img src={`/${image}`} alt="-" className="card-img-top" />
+                                        <div className="overflow h-100">
+                                            <img src={`/${image}`} alt="-" className="h-100 card-img-top border border-primary" />
                                         </div>
                                         <div className="card-body">
                                             <h3>{name}</h3>
