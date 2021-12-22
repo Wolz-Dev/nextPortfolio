@@ -9,7 +9,7 @@ const Index = () => (
         {/* Header card */}
         <header className="row mt-3">
             <div className="col-md-12 mt-5">
-                <div className="card card-body bg-secondary glass text-light">
+                <div className="card card-body bg-dark glass text-light">
                     <div className="row">
                         <div className="col-md-4">
                             <img src="photoport.jpeg" alt="foto perfil" className="img-fluid glass" />
