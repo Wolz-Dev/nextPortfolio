@@ -113,12 +113,16 @@ body::-webkit-scrollbar-thumb {
   box-shadow: none;
 }
 
+.border {
+  border-color: solid 1px !important;
+}
+
 .border-wolz {
   border-color: orange !important;
-  border-radius: 10px;
+  border-radius: 10px !important;
 }
 .border-wolz2 {
-  border-radius: 10px;
+  border-radius: 10px !important;
 }
 
 .btn-wolz {
