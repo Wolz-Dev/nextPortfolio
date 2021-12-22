@@ -2,14 +2,12 @@ import Layout from "../components/Layout";
 import { skills, educations, projects } from "../profile"
 import Link from "next/link"
 
-console.log(skills, educations, projects);
-
 const Index = () => (
     <Layout>
         {/* Header card */}
-        <header className="row mt-3">
-            <div className="col-md-12 mt-5">
-                <div className="card card-body bg-dark glass text-light">
+        <header className="row mt-2">
+            <div className="col-md-12 mt-2">
+                <div className="card card-body bg-black glass text-light py-5">
                     <div className="row">
                         <div className="col-md-4">
                             <img src="photoport.jpeg" alt="foto perfil" className="img-fluid glass" />
@@ -34,7 +32,7 @@ const Index = () => (
         {/* Second section */}
         <div className="row mt-1">
             <div className="col-md-4 mt-3">
-                <div className="card bg-light glass">
+                <div className="card bg-black glass text-light">
                     <div className="card-body">
                         <h1>Skills</h1>
 
@@ -81,9 +79,9 @@ const Index = () => (
         </div>
 
         {/* Portfolio */}
-        <div className="row mt-3">
+        <div className="row mt-3 mb-3">
             <div className="col-md-12">
-                <div className="card card-body bg-dark glass">
+                <div className="card card-body bg-black glass">
                     <div className="row">
                         <div className="col-md-12">
                             <h1 className="text-center text-light">Portfolio</h1>
@@ -93,8 +91,8 @@ const Index = () => (
                             projects.map(({ name, description, image, preview, code }, i) => (
                                 <div className="col-md-4 p-2 " key={i}>
                                     <div className="card h-100 glass">
-                                        <div className="overflow">
-                                            <img src={`/${image}`} alt="-" className="card-img-top" />
+                                        <div className="overflow h-100">
+                                            <img src={`/${image}`} alt="-" className="h-100 card-img-top" />
                                         </div>
                                         <div className="card-body">
                                             <h3>{name}</h3>

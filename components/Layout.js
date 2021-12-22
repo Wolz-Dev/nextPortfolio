@@ -10,7 +10,6 @@ const Layout = ({ children }) => {
     useEffect(() => {
 
         const handleRouteChange = url => {
-            console.log(url)
             NProgress.start();
         }
 
@@ -28,7 +27,7 @@ const Layout = ({ children }) => {
     return (
         <>
             <Navbar />
-            <main className="container py-4 glass">
+            <main className="container mt-6 glass">
                 {children}
             </main>
         </>
