@@ -117,7 +117,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .border-primary {
-  border: var(--primary) !important;
+  border-color: var(--primary) !important;
   border-radius: 10px !important;
 }
 
