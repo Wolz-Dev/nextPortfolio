@@ -9,13 +9,14 @@
 }
 
 .navround {
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 body {
   background-image: url("https://r1.ilikewallpaper.net/pic/202003/blur-lines-shapes-4k-86723-2732x2732_640.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 /* body {
@@ -52,11 +53,11 @@ body {
 }
 
 .color1 {
-  color: orange !important;
+  color: rgb(255, 165, 0) !important;
 }
 
 .mt-6 {
-  margin-top: 5rem;
+  margin-top: 4.3rem;
 }
 
 .fa-envelope {
@@ -76,11 +77,31 @@ body {
 }
 
 .glass {
-  background: linear-gradient
-    (135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 21px !important;
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.bg-black {
+  background: rgba(0, 0, 0, 0.58) !important;
+}
+.bg-black2 {
+  background: rgba(0, 0, 0, 0.86) !important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 165, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.border-primary {
+  border-color: orange !important;
 }
