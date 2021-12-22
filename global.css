@@ -1,3 +1,6 @@
+:root {
+  --primary: orange;
+}
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Righteous&display=swap");
 
@@ -114,7 +117,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .border-primary {
-  border: orange !important;
+  border: var(--primary) !important;
   border-radius: 10px !important;
 }
 
