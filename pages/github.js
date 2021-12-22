@@ -10,7 +10,7 @@ const GitHub = ({ user, statusCode }) => {
     return (
         <Layout>
             <div className="row">
-                <div className="col-md-4 offset-md-4 my-4">
+                <div className="col-md-4 offset-md-4 my-5 ">
                     <div className="card card-body text-center">
                         <h1>{user.name}</h1>
                         <img src={user.avatar_url} alt="avatar" />

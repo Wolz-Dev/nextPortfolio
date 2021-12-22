@@ -5,7 +5,7 @@ import Link from "next/link"
 const Index = () => (
     <Layout>
         {/* Header card */}
-        <header className="row mt-2">
+        <header className="row mt-4">
             <div className="col-md-12">
                 <div className="card card-body bg-black3 glass text-light py-5">
                     <div className="row">

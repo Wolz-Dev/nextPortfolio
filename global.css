@@ -114,7 +114,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .border-primary {
-  border-color: orange;
+  border-color: orange !important;
+  border-radius: 10px !important;
 }
 
 .border-wolz {
