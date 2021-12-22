@@ -114,7 +114,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .border {
-  border-color: solid 1px orange !important;
+  border: 1px solid #ffa500 !important;
+  color: #ffa500 !important;
 }
 
 .border-wolz {
