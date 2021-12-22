@@ -10,12 +10,15 @@ const GitHub = ({ user, statusCode }) => {
     return (
         <Layout>
             <div className="row">
-                <div className="col-md-4 offset-md-4 my-4">
+                <div className="col-md-4 offset-md-4 my-4 zoom">
                     <div className="card card-bnody text-center">
                         <h1>{user.name}</h1>
                         <img src={user.avatar_url} alt="avatar" />
                         <p>{user.bio}</p>
-                        <a href={user.html_url} target="_blank" className="btn btn-primary">Go to my GitHub</a>
+                        <div className="mb-2">
+                            <a href={user.html_url} target="_blank" className="btn btn-wolz bg-black2 me-3">Go to my GitHub</a>
+                            <a href="/" className="btn btn-wolz bg-black2">Go to my Portfolio</a>
+                        </div>
                     </div>
                 </div>
             </div>
