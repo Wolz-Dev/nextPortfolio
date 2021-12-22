@@ -96,7 +96,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .bg-black3 {
-  background: rgba(0, 0, 0, 0.4) !important;
+  background: rgba(0, 0, 0, 0.6) !important;
 }
 .bg-black2 {
   background: rgba(0, 0, 0, 0.8) !important;
@@ -119,10 +119,6 @@ body::-webkit-scrollbar-thumb {
 }
 .border-wolz2 {
   border-radius: 10px;
-}
-
-.border {
-  border-color: orange !important;
 }
 
 .btn-wolz {

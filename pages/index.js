@@ -99,10 +99,10 @@ const Index = () => (
                                             <p>{description}</p>
                                             <div className="d-flex justify-content-center">
                                                 <Link href={preview}>
-                                                    <a className="btn btn-wolz me-1 bg-dark text-light border-wolz2">Preview</a>
+                                                    <a className="btn btn-wolz me-1 bg-dark text-light border border-wolz2">Preview</a>
                                                 </Link>
                                                 <Link href={code}>
-                                                    <a className="btn btn-wolz bg-dark text-light border-wolz2">Code</a>
+                                                    <a className="btn btn-wolz bg-dark text-light border border-wolz2">Code</a>
                                                 </Link>
                                             </div>
                                         </div>
