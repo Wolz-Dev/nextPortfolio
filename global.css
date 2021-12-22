@@ -113,8 +113,8 @@ body::-webkit-scrollbar-thumb {
   box-shadow: none;
 }
 
-.border {
-  border: 1px solid #ffa500 !important;
+.border-primary {
+  border-color: orange;
 }
 
 .border-wolz {
