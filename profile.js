@@ -84,14 +84,42 @@ export const educations = [
 export const projects = [
     {
         name: 'Statick Bank responsive',
-        description: 'Mockup of imaginary Web Bank (HTML, CSS and Boostrap)',
+        description: 'Mockup of imaginary Web Bank (HTML, CSS and Bootsrap)',
         image: 'bank.png',
         preview: 'https://wolz-banksite.netlify.app/',
         code: 'https://github.com/Wolz-Dev/staticBank'
     },
     {
         name: 'Instagram clone',
-        description: 'Mockup of Instagram web page (HTML, CSS and Boostrap)',
+        description: 'Mockup of Instagram web page (HTML, CSS and Bootsrap)',
+        image: 'instaclone.png',
+        preview: 'https://webui-insta.netlify.app/',
+        code: 'https://github.com/Wolz-Dev/bootstrap5Instagram'
+    },
+    {
+        name: 'Instagram clone',
+        description: 'Mockup of Instagram web page (HTML, CSS and Bootsrap)',
+        image: 'instaclone.png',
+        preview: 'https://webui-insta.netlify.app/',
+        code: 'https://github.com/Wolz-Dev/bootstrap5Instagram'
+    },
+    {
+        name: 'Statick Bank responsive',
+        description: 'Mockup of imaginary Web Bank (HTML, CSS and Bootsrap)',
+        image: 'bank.png',
+        preview: 'https://wolz-banksite.netlify.app/',
+        code: 'https://github.com/Wolz-Dev/staticBank'
+    },
+    {
+        name: 'Instagram clone',
+        description: 'Mockup of Instagram web page (HTML, CSS and Bootsrap)',
+        image: 'instaclone.png',
+        preview: 'https://webui-insta.netlify.app/',
+        code: 'https://github.com/Wolz-Dev/bootstrap5Instagram'
+    },
+    {
+        name: 'Instagram clone',
+        description: 'Mockup of Instagram web page (HTML, CSS and Bootsrap)',
         image: 'instaclone.png',
         preview: 'https://webui-insta.netlify.app/',
         code: 'https://github.com/Wolz-Dev/bootstrap5Instagram'
