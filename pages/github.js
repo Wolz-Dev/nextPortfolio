@@ -16,8 +16,8 @@ const GitHub = ({ user, statusCode }) => {
                         <img src={user.avatar_url} alt="avatar" />
                         <p>{user.bio}</p>
                         <div className="mb-2">
-                            <a href={user.html_url} target="_blank" className="btn btn-wolz bg-black2 me-3">Go to my GitHub</a>
-                            <a href="/" className="btn btn-wolz bg-black2">Go to my Portfolio</a>
+                            <a href={user.html_url} target="_blank" className="btn btn-wolz bg-black2 me-3 text-light border-wolz2">Go to my GitHub</a>
+                            <a href="/" className="btn btn-wolz bg-black2 text-light border-wolz2">Go to my Portfolio</a>
                         </div>
                     </div>
                 </div>

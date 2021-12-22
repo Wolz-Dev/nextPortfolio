@@ -9,8 +9,8 @@
 }
 
 .navround {
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
 }
 
 body {
@@ -95,7 +95,7 @@ body::-webkit-scrollbar-thumb {
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
-.bg-black {
+.bg-black3 {
   background: rgba(0, 0, 0, 0.4) !important;
 }
 .bg-black2 {
@@ -116,6 +116,13 @@ body::-webkit-scrollbar-thumb {
 .border-wolz {
   border-color: orange !important;
   border-radius: 10px;
+}
+.border-wolz2 {
+  border-radius: 10px;
+}
+
+.border {
+  border-color: orange !important;
 }
 
 .btn-wolz {

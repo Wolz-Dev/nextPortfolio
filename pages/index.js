@@ -7,7 +7,7 @@ const Index = () => (
         {/* Header card */}
         <header className="row mt-2">
             <div className="col-md-12">
-                <div className="card card-body bg-black glass text-light py-5">
+                <div className="card card-body bg-black3 glass text-light py-5">
                     <div className="row">
                         <div className="col-md-4">
                             <img src="photoport.jpeg" alt="foto perfil" className="img-fluid glass" />
@@ -32,7 +32,7 @@ const Index = () => (
         {/* Second section */}
         <div className="row mt-1">
             <div className="col-md-4 mt-3">
-                <div className="card bg-black glass text-light">
+                <div className="card bg-black3 glass text-light">
                     <div className="card-body">
                         <h1>Skills</h1>
 
@@ -81,7 +81,7 @@ const Index = () => (
         {/* Portfolio */}
         <div className="row mt-5 mb-3">
             <div className="col-md-12">
-                <div className="card card-body bg-black glass">
+                <div className="card card-body bg-black3 glass">
                     <div className="row">
                         <div className="col-md-12">
                             <h1 className="text-center color1">Portfolio</h1>
@@ -99,10 +99,10 @@ const Index = () => (
                                             <p>{description}</p>
                                             <div className="d-flex justify-content-center">
                                                 <Link href={preview}>
-                                                    <a className="btn btn-wolz me-1 bg-dark text-light">Preview</a>
+                                                    <a className="btn btn-wolz me-1 bg-dark text-light border-wolz2">Preview</a>
                                                 </Link>
                                                 <Link href={code}>
-                                                    <a className="btn btn-wolz bg-dark text-light">Code</a>
+                                                    <a className="btn btn-wolz bg-dark text-light border-wolz2">Code</a>
                                                 </Link>
                                             </div>
                                         </div>
