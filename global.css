@@ -115,19 +115,13 @@ body::-webkit-scrollbar-thumb {
 
 .border {
   border: 1px solid #ffa500 !important;
-  color: #ffa500 !important;
 }
 
 .border-wolz {
-  border-color: orange !important;
-  border-radius: 10px !important;
-}
-.border-wolz2 {
   border-radius: 10px !important;
 }
 
 .btn-wolz {
-  color: white;
   box-shadow: none;
 }
 .btn-wolz:hover {

@@ -12,7 +12,7 @@ const Navbar = () => (
 
             <div className="collapse navbar-collapse" id="navbarColor02">
                 <Link href="/github">
-                    <a className="nav-link active fs-5 color1 fw-bold ms-auto border border-wolz d-inline-block  border border-wolz">GitHub</a>
+                    <a className="nav-link active fs-5 color1 fw-bold ms-auto d-inline-block border border-wolz mt-2">GitHub</a>
                 </Link>
             </div>
         </div>
