@@ -79,7 +79,7 @@ const Index = () => (
         </div>
 
         {/* Portfolio */}
-        <div className="row mt-6 mb-3">
+        <div className="row mt-5 mb-3">
             <div className="col-md-12">
                 <div className="card card-body bg-black glass">
                     <div className="row">
@@ -99,10 +99,10 @@ const Index = () => (
                                             <p>{description}</p>
                                             <div className="d-flex justify-content-center">
                                                 <Link href={preview}>
-                                                    <a className="btn btn-wolz me-1 bg-dark">Preview</a>
+                                                    <a className="btn btn-wolz me-1 bg-dark text-light">Preview</a>
                                                 </Link>
                                                 <Link href={code}>
-                                                    <a className="btn btn-wolz bg-dark">Code</a>
+                                                    <a className="btn btn-wolz bg-dark text-light">Code</a>
                                                 </Link>
                                             </div>
                                         </div>

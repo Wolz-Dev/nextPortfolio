@@ -96,10 +96,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .bg-black {
-  background: rgba(0, 0, 0, 0.58) !important;
+  background: rgba(0, 0, 0, 0.4) !important;
 }
 .bg-black2 {
-  background: rgba(0, 0, 0, 0.86) !important;
+  background: rgba(0, 0, 0, 0.8) !important;
 }
 
 .navbar-dark .navbar-toggler-icon {
@@ -113,7 +113,7 @@ body::-webkit-scrollbar-thumb {
   box-shadow: none;
 }
 
-.border-primary {
+.border-wolz {
   border-color: orange !important;
   border-radius: 10px;
 }
