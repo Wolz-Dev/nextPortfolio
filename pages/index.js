@@ -14,7 +14,7 @@ const Index = () => (
                         </div>
                         <div className="col-md-8">
                             <h1 className="maker color1 mt-3 fs-2">Walter Celiz</h1>
-                            <h3 className="maker2">Junior Front-End Developer</h3>
+                            <h3 className="maker2">Trainee Front-End Developer</h3>
                             <p className="fs-5">Self-taught Web Developer looking for my first experience in the world of technology.</p>
                             <br />
                             <h3 className="maker2">Contact me</h3>
