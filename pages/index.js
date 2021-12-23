@@ -13,11 +13,11 @@ const Index = () => (
                             <img src="photoport.jpeg" alt="foto perfil" className="img-fluid glass" />
                         </div>
                         <div className="col-md-8">
-                            <h1 className="maker color1 mt-3 fs-2">Walter Celiz</h1>
-                            <h3 className="maker2">Trainee Front-End Developer</h3>
+                            <h1 className="marker color1 mt-3 fs-2">Walter Celiz</h1>
+                            <h3 className="fw-bold">Trainee Front-End Developer</h3>
                             <p className="fs-5">Self-taught Web Developer looking for my first experience in the world of technology.</p>
                             <br />
-                            <h3 className="maker2">Contact me</h3>
+                            <h3 className="fw-bold">Contact me</h3>
                             <div className="fs-5 d-flex align-items-center">
                                 <a href="mailto:wolz.dev@gmail.com" className="text-decoration-none text-light d-flex align-items-center zoom2"><i className="far fa-envelope fs-3"></i>&nbsp;Email</a>&nbsp;&nbsp;&nbsp;
                                 <a href="https://wa.me/+5493816315733" target="_blank" className="text-decoration-none text-light d-flex align-items-center zoom2"><i className="fab fa-whatsapp fs-3"></i>&nbsp;Whatsapp</a>
@@ -34,7 +34,7 @@ const Index = () => (
             <div className="col-md-4 mt-3">
                 <div className="card bg-black3 glass text-light">
                     <div className="card-body">
-                        <h1>Skills</h1>
+                        <h1 className="fw-bold">Skills</h1>
 
                         {
                             skills.map(({ skill, percentage }, i) => (
@@ -62,7 +62,7 @@ const Index = () => (
             <div className="col-md-8 mt-3">
                 <div className="card bg-light glass">
                     <div className="card-body">
-                        <h1>Education</h1>
+                        <h1 className="fw-bold">Education</h1>
                         <ul>
                             {
                                 educations.map(({ title, description }, i) => (
@@ -84,7 +84,7 @@ const Index = () => (
                 <div className="card card-body bg-black3 glass">
                     <div className="row">
                         <div className="col-md-12">
-                            <h1 className="text-center color1">Portfolio</h1>
+                            <h1 className="text-center color1 marker2">Portfolio</h1>
                         </div>
 
                         {

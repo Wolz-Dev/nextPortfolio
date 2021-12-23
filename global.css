@@ -1,13 +1,14 @@
 :root {
   --primary: orange;
 }
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Righteous&display=swap");
 
-.maker {
+/* @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap"); */
+
+.marker {
   font-family: "Press Start 2P", cursive !important;
 }
-.maker2 {
+.marker2 {
   font-family: "Righteous", cursive !important;
 }
 

@@ -13,6 +13,12 @@ class MyDocument extends Document {
                     <title>Portfolio Celiz Walter</title>
                     <meta name="description" content="Walter Celiz Portfolio" />
                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.1.5/nprogress.css" integrity="sha512-j9L5f7y6XeT13BypDgKfVgynVVoS9yLmr/jUGrcfy5IIFIwWT0VK9czh7qoMHbah+Et1kCdpM57BOr9ihIKRMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                    <link rel="preconnect" href="https://fonts.googleapis.com" />
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+                    <link rel="preconnect" href="https://fonts.googleapis.com" />
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
                 </Head>
                 <body className="test">
                     <Main />
