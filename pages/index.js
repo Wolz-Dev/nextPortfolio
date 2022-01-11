@@ -92,17 +92,17 @@ const Index = () => (
                                 <div className="col-md-4 p-2" key={i}>
                                     <div className="card h-100 glass">
                                         <div className="overflow h-100">
-                                            <img src={`/${image}`} alt="-" className="h-100 card-img-top" />
+                                            <img src={`/${image}`} alt="-" className="h-100 card-img-top d-block" />
                                         </div>
                                         <div className="card-body">
                                             <h3>{name}</h3>
                                             <p>{description}</p>
                                             <div className="d-flex justify-content-center">
                                                 <Link href={preview}>
-                                                    <a className="btn btn-wolz me-1 bg-dark text-light border-wolz">Preview</a>
+                                                    <a className="btn btn-wolz me-1 bg-dark text-light border-wolz" target="_blank">Preview</a>
                                                 </Link>
                                                 <Link href={code}>
-                                                    <a className="btn btn-wolz bg-dark text-light border-wolz">Code</a>
+                                                    <a className="btn btn-wolz bg-dark text-light border-wolz" target="_blank">Code</a>
                                                 </Link>
                                             </div>
                                         </div>

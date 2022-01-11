@@ -143,3 +143,9 @@ body::-webkit-scrollbar-thumb {
 .zoom2:hover {
   transform: scale(1.2);
 }
+
+.card-img-top {
+  object-fit: cover !important;
+  object-position: center !important;
+  width: 100%;
+}

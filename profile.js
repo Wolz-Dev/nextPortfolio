@@ -97,11 +97,11 @@ export const projects = [
         code: 'https://github.com/Wolz-Dev/bootstrap5Instagram'
     },
     {
-        name: 'Instagram clone',
-        description: 'Mockup of Instagram web page (HTML, CSS and Bootsrap)',
-        image: 'instaclone.png',
-        preview: 'https://webui-insta.netlify.app/',
-        code: 'https://github.com/Wolz-Dev/bootstrap5Instagram'
+        name: 'Music Wolz',
+        description: 'Simple Music Player (HTML, CSS, JS, React)',
+        image: 'wolzmusic2.png',
+        preview: 'https://wolzmusic.netlify.app',
+        code: 'https://github.com/Wolz-Dev/porterwolz'
     },
     {
         name: 'Statick Bank responsive',
